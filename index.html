@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Bootstrap</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar justify-content-between" style="background-color:#563D7C;">
+            <div class="d-flex">
+                <a class="navbar-brand d-md-block" href="index.html">
+                    <img src="img/logo.svg" width="30" height="30" alt="">
+                </a>
+                <div class="navbar-nav-scroll">
+                    <ul class="navbar-nav bd-navbar-nav flex-row">
+                        <li class="nav-item active"> <a class="nav-link" href="https://getbootstrap.com/">Home</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Documentation</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/">Examples</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="https://themes.getbootstrap.com/">Themes</a></li>
+                        <li class="nav-item"> <a class="nav-link" href="https://expo.getbootstrap.com/">Expo</a></li>                    
+                        <li class="nav-item"> <a class="nav-link" href="https://blog.getbootstrap.com/">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class=" d-none d-md-flex">    
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        v4.3
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Latest (4.3.3)</a>
+                        <a class="dropdown-item" href="#">v4.2.1</a>
+                        <a class="dropdown-item" href="#">v4.0.0</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">v3.2.1</a>
+                        <a class="dropdown-item" href="#">v2.1.2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">All versions</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"> <a class="navbar-brand" href="#"> <embed src="img/twitter.svg" width="20" height="20" alt=""></a></li>
+                    <li class="nav-item"> <a class="navbar-brand" href="#"> <embed src="img/tumblr.svg" width="20" height="20" alt=""></a></li>
+                    <li class="nav-item"> <a class="navbar-brand" href="#"> <embed src="img/skype.svg" width="20" height="20" alt=""></a></li>
+                    <li class="nav-item"> <a class="navbar-brand" href="#"> <embed src="img/apple.svg" width="20" height="20" alt=""></a></li>
+        
+                    <li><button type="button" class="btn btn-outline-warning">Download</button></li>
+                </ul>
+            </div>  
+        </nav>
+        <main class="bd-masthead">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-7 mx-auto col-md-6 order-md-2">
+                        <img src="http://html-plus.in.ua/wp-content/uploads/2018/01/bootstrap4-start.jpg" width="512" height="430" class="img-fluid mb-3 mb-md-0" alt="">
+                    </div>  
+                    <div class="col-md-6 order-md-1 text-center text-md-left pr-md-5">
+                        <h1 class="mb-3" style="color:#7952B3;">Bootstrap</h1>
+                        <p class="lead">Build responsive, mobile-first projects on the web with the world’s most popular front-end component library. <br> <br>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+                        <button type="button" class="btn btn-outline-primary btn-lg">Get Started</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg">Download</button>
+                    </div>
+                    
+                </div>       
+            </div>
+        </main>
+        
+        <section class="row mt-5 p-5 border border-white">
+            <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+                <embed src="img/icon2.png" width="40px" alt="">
+                <h1>Installation</h1>
+                <p>Include Bootstrap’s source Sass and JavaScript files via npm, Composer or Meteor. Package managed installs don’t include documentation, but do include our build system and readme.</p>
+                <code>$ npm install bootstrap</code> <br>
+                <code>$ gem install bootstrap -v 4.3.1</code>
+                <hr class="half-rule">
+                <button type="button" class="btn btn-outline-primary">Read installation docs</button>
+            </div>
+            <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+                <embed src="img/icon1.png" width="40px" alt="">
+                <h1>BootstrapCDN</h1>
+                <p>When you only need to include Bootstrap’s compiled CSS or JS, you can use <a href="https://www.bootstrapcdn.com/">BootstrapCDN</a>.</p>
+                <h3>CSS only</h3>
+                <code> link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"</code>
+                <hr class="half-rule">
+                <button type="button" class="btn btn-outline-primary">Explore the docs</button>
+            </div>
+            <div class="col-12 col-md-4 p-3 p-md-5 bg-light border border-white">
+                <embed src="img/icon3.png" width="40px" alt="">
+                <h1>Official Themes</h1>
+                <p>Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.</p>
+                <div class="col-7 mx-auto col-md-6 order-md-2">
+                    <img src="https://getbootstrap.com/docs/4.3/assets/img/bootstrap-themes.png" width="512" height="430" class="img-fluid mb-3 mb-md-0">
+                </div>
+                <hr class="half-rule">
+                <button type="button" class="btn btn-outline-primary">Browse themes</button>
+            </div>
+        </section>
+
+        <footer class="text-muted bg-light ">
+            <div class="container-fluid p-3 p-md-5 .text-dark">
+                <div class="">
+                    <a href="https://github.com/twbs/bootstrap" class="mr-3">Github</a>
+                    <a href="https://twitter.com/getbootstrap" class="mr-3">Twitter</a>
+                    <a href="https://getbootstrap.com/docs/4.3/examples/" class="mr-3">Examples</a>
+                    <a href="https://getbootstrap.com/docs/4.3/about/overview/">About</a>
+                </div>
+                <p>Designed and built with all the love in the world by the <a href="/docs/4.3/about/team/">Bootstrap team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
+                <p>Currently v4.3.1. Code licensed MIT, docs CC BY 3.0.</p>
+            </div>
+        </footer>
+      
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+    </body>
+</html>  
